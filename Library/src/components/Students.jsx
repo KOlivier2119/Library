@@ -4,8 +4,7 @@ import { MdOutlineAssignmentReturned } from "react-icons/md";
 import { FiUsers } from "react-icons/fi";
 import { IoStatsChart } from "react-icons/io5";
 import Table from "./Table";
-import Students from "./Students";
-const Dashboard = () => {
+const Students = () => {
     return (
         <div>
             <div className="flex flex-row">
@@ -55,4 +54,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Students
