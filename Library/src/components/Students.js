@@ -1,32 +1,76 @@
-const Students =[
-    {
-        Id: 211,
-        name: "KWIZERA Olivier"
-      },
-    {
-        Id: 211,
-        name: "IRASUBIZA Sally Nelson"
-      },
-    {
-        Id: 211,
-        name: "MUGISHA Pascal"
-      },
-    {
-        Id: 211,
-        name: "IGIRANEZA Regis"
-      },
-    {
-        Id: 211,
-        name: "MANZI Prosper"
-      },
-    {
-        Id: 211,
-        name: "Mike Peter"
-      },
-    {
-        Id: 211,
-        name: "DUFITIMANA Theoneste"
-      }
-] 
+const Students = [
+  {
+    Id: 211,
+    name: "KWIZERA Olivier",
+    class: "S3B",
+    book_no: 123,
+    book_name: "Spotlight Chemistry",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 212,
+    name: "IRASUBIZA Sally Nelson",
+    class: "S3B",
+    book_no: 123,
+    book_name: "MK Biology",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 213,
+    name: "MUGISHA Pascal",
+    class: "S3B",
+    book_no: 123,
+    book_name: "MK English",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 214,
+    name: "IGIRANEZA Regis",
+    class: "S3B",
+    book_no: 123,
+    book_name: "NCDC",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 215,
+    name: "MANZI Prosper",
+    class: "S3B",
+    book_no: 123,
+    book_name: "Longhorn Mathematics",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 216,
+    name: "Mike Peter",
+    class: "S3B",
+    book_no: 123,
+    book_name: "KINYARWANDA",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 217,
+    name: "DUFITIMANA Theoneste",
+    class: "S3B",
+    book_no: 123,
+    book_name: "Enterpreneurship",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+  {
+    Id: 218,
+    name: "MIGISHA Ivan",
+    class: "S3B",
+    book_no: 123,
+    book_name: "Francais",
+    borrowing: "2024-09-23",
+    returning: "2024-09-30",
+  },
+];
 
-export default Students
+export default Students;
