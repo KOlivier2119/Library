@@ -1,4 +1,4 @@
-import { FaBell, FaHistory, FaRing, FaUser, FaWallet } from "react-icons/fa";
+import { FaBell, FaHistory, FaUser, FaWallet } from "react-icons/fa";
 import { IoMdAddCircleOutline } from "react-icons/io";
 import { MdOutlineAssignmentReturned } from "react-icons/md";
 import { FiUsers } from "react-icons/fi";
@@ -9,37 +9,37 @@ const Dashboard = () => {
     return (
         <div>
             <div className="flex flex-row">
-                <div className="h-[100vh] w-[20%] flex flex-col gap-8 bg-[#021428] text-white text-lg py-3 px-4 justify-center">
+                {/* <div className="h-[100vh] w-[20%] flex flex-col gap-8 bg-[#021428] text-white text-md py-3 px-4 justify-center">
                     <div className="flex flex-row gap-2">
-                        <IoStatsChart className="w-7 h-7" />
-                        <h1>Dashboard</h1>
+                        <IoStatsChart className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Dashboard</h1>
                     </div>
                     <div className="flex flex-row gap-2">
-                        <FiUsers className="w-7 h-7" />
-                        <h1>Students</h1>
+                        <FiUsers className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Students</h1>
                     </div>
                     <div className="flex flex-row gap-2">
-                        <FaWallet className="w-7 h-7" />
-                        <h1>Borrowed</h1>
+                        <FaWallet className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Borrowed</h1>
                     </div>
                     <div className="flex flex-row gap-2">
-                        <MdOutlineAssignmentReturned className="w-7 h-7" />
-                        <h1>Returned</h1>
+                        <MdOutlineAssignmentReturned className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Returned</h1>
                     </div>
                     <div className="flex flex-row gap-2">
 
-                        <IoMdAddCircleOutline className="w-7 h-7" />
-                        <h1>Add Book</h1>
+                        <IoMdAddCircleOutline className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Add Book</h1>
                     </div>
                     <div className="flex flex-row gap-2">
-                        <FaHistory className="w-6 h-6" />
-                        <h1>History</h1>
+                        <FaHistory className="w-5 h-5" />
+                        <h1 className="cursor-pointer">History</h1>
                     </div>
                     <div className="flex flex-row gap-2">
-                        <FaUser className="w-7 h-7" />
-                        <h1>Profile</h1>
+                        <FaUser className="w-5 h-5" />
+                        <h1 className="cursor-pointer">Profile</h1>
                     </div>
-                </div>
+                </div> */}
                 <div className="h-[100vh] w-[80%] bg-[#EEF3F9]">
                     <div className="flex flex-row justify-between px-3 py-2">
                         <h1 className="text-[#021428] text-lg font-semibold">History</h1>
@@ -47,7 +47,7 @@ const Dashboard = () => {
                         <FaBell className="w-8 h-8 bg-[#021428] p-2 text-white rounded-md" />
                     </div>
                     <div>
-                        <Table />
+                        <Table/>
                     </div>
                 </div>
             </div>
