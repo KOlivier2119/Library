@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <div className="flex-grow p-4">
+      <div className="flex-grow p-0">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/students" element={<Student />} />
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/returned" element={<Returned />} />
           <Route path="/history" element={<History />} />
           <Route path="/profile" element={<Profile />} />
-          {/* Add more routes as needed */}
+          
         </Routes>
       </div>
     </div>

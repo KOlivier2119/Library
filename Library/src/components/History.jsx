@@ -18,19 +18,21 @@ const History = () => {
   return (
     <div>
       {/* Header Section */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 p-2">
         <h1 className="text-2xl font-bold">History</h1>
         <div className="relative flex items-center">
-          <input
-            type="text"
-            placeholder="Search for anything"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="border border-gray-300 rounded-l-md px-4 py-2 w-64"
-          />
-          <button className="bg-gray-800 text-white px-4 py-2 rounded-r-md">
-            <FaSearch />
-          </button>
+          <div className="h-6">
+            <input
+              type="text"
+              placeholder="Search for anything"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="border border-gray-300 rounded-l-md px-4 py-2 w-64"
+            />
+            <button className="bg-gray-800 text-white px-4 py-3 rounded-r-md">
+              <FaSearch />
+            </button>
+          </div>
           <button className="ml-4 bg-gray-800 text-white p-2 rounded">
             <FaBell />
           </button>
