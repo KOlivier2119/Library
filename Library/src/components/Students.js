@@ -1,6 +1,6 @@
 const Students = [
   {
-    Id: 211,
+    id: 211,
     name: "KWIZERA Olivier",
     class: "S3B",
     book_no: 123,
@@ -9,7 +9,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 212,
+    id: 212,
     name: "IRASUBIZA Sally Nelson",
     class: "S3B",
     book_no: 123,
@@ -18,7 +18,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 213,
+    id: 213,
     name: "MUGISHA Pascal",
     class: "S3B",
     book_no: 123,
@@ -27,7 +27,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 214,
+    id: 214,
     name: "IGIRANEZA Regis",
     class: "S3B",
     book_no: 123,
@@ -36,7 +36,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 215,
+    id: 215,
     name: "MANZI Prosper",
     class: "S3B",
     book_no: 123,
@@ -45,7 +45,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 216,
+    id: 216,
     name: "Mike Peter",
     class: "S3B",
     book_no: 123,
@@ -54,7 +54,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 217,
+    id: 217,
     name: "DUFITIMANA Theoneste",
     class: "S3B",
     book_no: 123,
@@ -63,7 +63,7 @@ const Students = [
     returning: "2024-09-30",
   },
   {
-    Id: 218,
+    id: 218,
     name: "MIGISHA Ivan",
     class: "S3B",
     book_no: 123,

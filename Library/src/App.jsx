@@ -10,7 +10,7 @@ import Profile from './components/Profile';
 
 const App = () => {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen font-fira">
       <Sidebar />
       <div className="flex-grow p-0">
         <Routes>

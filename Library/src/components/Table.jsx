@@ -1,7 +1,11 @@
 import { FaClock, FaCheckCircle } from "react-icons/fa";
 import Students from "./Students";
 
-const Table = () => {
+
+const Table = ({searchItem}) => {
+    const filteredStudents = Students.filter((student) => {
+        return student.book_name.toLowerCase().includes(searchItem.toLowerCase());
+    });
     let returned = false
     return (
         <div className="flex justify-center items-center w-[90%] m-auto pt-3">
@@ -19,7 +23,7 @@ const Table = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {Students.map((student, index) => {
+                    {filteredStudents.map((student, index) => {
                         return (
                             <tr key={index} className="border border-gray-300 text-[#021428] font-[400] hover:bg-[#e1e8f0] transition-all duration-700 cursor-pointer">
                                 <td className="py-3 px-4 text-start">{student.Id}</td>

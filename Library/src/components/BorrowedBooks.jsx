@@ -1,12 +1,8 @@
 import { useState } from "react";
 import { FaEllipsisV } from "react-icons/fa";
+import Students from "./Students";
 
 const BorrowedBooks = () => {
-  const books = [
-    { id: 211, name: "Irasubiza Saly Nelson", class: "S3B", bookNo: 236, bookName: "Mathematics MK", borrowingDate: "23-07-2024", returnDate: "23-07-2024" },
-    
-  ];
-
   const [actionMenuVisible, setActionMenuVisible] = useState(null);
 
   const toggleActionMenu = (index) => {
@@ -16,9 +12,9 @@ const BorrowedBooks = () => {
   return (
     <div>
 
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 p-2">
         <h1 className="text-2xl font-bold">Borrowed Books</h1>
-        <button className="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Update</button>
+        <button className="bg-green-700 text-white px-6 py-2 rounded-md hover:bg-green-800 p-2">Update</button>
       </div>
 
 
@@ -37,15 +33,15 @@ const BorrowedBooks = () => {
             </tr>
           </thead>
           <tbody>
-            {books.map((book, index) => (
+            {Students.map((book, index) => (
               <tr key={index} className="border-b hover:bg-gray-50">
                 <td className="py-3 px-2">{book.id}</td>
                 <td className="py-3 px-2">{book.name}</td>
                 <td className="py-3 px-2">{book.class}</td>
-                <td className="py-3 px-2">{book.bookNo}</td>
-                <td className="py-3 px-2">{book.bookName}</td>
-                <td className="py-3 px-2">{book.borrowingDate}</td>
-                <td className="py-3 px-2">{book.returnDate}</td>
+                <td className="py-3 px-2">{book.book_no}</td>
+                <td className="py-3 px-2">{book.book_name}</td>
+                <td className="py-3 px-2">{book.borrowing}</td>
+                <td className="py-3 px-2">{book.returning}</td>
                 <td className="py-3 px-2 text-center relative">
                   <button
                     className="focus:outline-none"
