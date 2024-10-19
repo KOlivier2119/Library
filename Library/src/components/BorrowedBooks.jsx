@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaEllipsisV } from "react-icons/fa";
-import Students from "./Students";
+import Students from "./Data";
 
 const BorrowedBooks = () => {
   const [actionMenuVisible, setActionMenuVisible] = useState(null);

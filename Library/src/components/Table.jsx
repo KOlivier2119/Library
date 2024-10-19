@@ -1,5 +1,5 @@
 import { FaClock, FaCheckCircle } from "react-icons/fa";
-import Students from "./Students";
+import Students from "./Data";
 
 
 const Table = ({searchItem}) => {
@@ -26,7 +26,7 @@ const Table = ({searchItem}) => {
                     {filteredStudents.map((student, index) => {
                         return (
                             <tr key={index} className="border border-gray-300 text-[#021428] font-[400] hover:bg-[#e1e8f0] transition-all duration-700 cursor-pointer">
-                                <td className="py-3 px-4 text-start">{student.Id}</td>
+                                <td className="py-3 px-4 text-start">{student.id}</td>
                                 <td className="py-3 px-4 text-start">{student.name}</td>
                                 <td className="py-3 px-4 text-start">{student.class}</td>
                                 <td className="py-3 px-4 text-start">{student.book_no}</td>
