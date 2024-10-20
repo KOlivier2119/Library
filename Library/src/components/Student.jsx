@@ -103,11 +103,11 @@ const Student = () => {
               <th className="py-4 px-2 text-left">Stud_id</th>
               <th className="py-4 px-2 text-left">Stud_name</th>
               <th className="py-4 px-2 text-left">Class</th>
-              <th className="py-4 px-2 text-left">Book No</th>
+              {/* <th className="py-4 px-2 text-left">Book No</th>
               <th className="py-4 px-2 text-left">Book Name</th>
               <th className="py-4 px-2 text-left">Borrowing Date</th>
               <th className="py-4 px-2 text-left">Return Date</th>
-              <th className="py-4 px-2 text-left">Status</th>
+              <th className="py-4 px-2 text-left">Status</th> */}
             </tr>
           </thead>
           <tbody>
@@ -116,7 +116,7 @@ const Student = () => {
                 <td className="py-3 px-2">{book.id}</td>
                 <td className="py-3 px-2">{book.name}</td>
                 <td className="py-3 px-2">{book.class}</td>
-                <td className="py-3 px-2">{book.bookNo}</td>
+                {/* <td className="py-3 px-2">{book.bookNo}</td>
                 <td className="py-3 px-2">{book.bookName}</td>
                 <td className="py-3 px-2">{book.borrowingDate}</td>
                 <td className="py-3 px-2">{book.returnDate}</td>
@@ -126,7 +126,7 @@ const Student = () => {
                   ) : (
                     <FaTimesCircle className="text-orange-600" />
                   )}
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

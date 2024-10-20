@@ -6,12 +6,14 @@ import Dashboard from './components/Dashboard';
 import History from './components/History';
 import Returned from './components/Returned';
 import Profile from './components/Profile';
+import Landing from './components/Landing';
+import Login from './components/Login';
 // Add other imports as needed
 
 const App = () => {
   return (
     <div className="flex min-h-screen font-fira">
-      <Sidebar />
+      {/* <Sidebar />
       <div className="flex-grow p-0">
         <Routes>
           <Route path="/" element={<Dashboard />} />
@@ -22,7 +24,9 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           
         </Routes>
-      </div>
+      </div> */}
+      {/* <Landing /> */}
+      <Login />
     </div>
   );
 };
