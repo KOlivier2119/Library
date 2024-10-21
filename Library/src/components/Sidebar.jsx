@@ -10,7 +10,7 @@ const Sidebar = () => {
       </div>
       <ul>
         <li className="mb-4">
-          <Link to="/" className="flex items-center p-2 hover:bg-green-700 rounded">
+          <Link to="/dashboard" className="flex items-center p-2 hover:bg-green-700 rounded">
             <FaHome className="mr-3" /> Dashboard
           </Link>
         </li>

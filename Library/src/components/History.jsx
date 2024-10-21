@@ -7,8 +7,8 @@ const History = () => {
     { id: 211, name: "Irasubiza Saly Nelson", class: "S3B", bookNo: 236, bookName: "Mathematics MK", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Returned" },
     { id: 233, name: "Will Smith", class: "S3A", bookNo: 236, bookName: "Mathematics MK", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Not returned" },
     { id: 456, name: "Mike Tyson", class: "S3B", bookNo: 236, bookName: "Mathematics MK", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Not returned" },
-    { id: 462, name: "John Doe", class: "S3C", bookNo: 236, bookName: "Longhorn Chemistry", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Returned" },
-    { id: 563, name: "Kim Huang", class: "S3C", bookNo: 236, bookName: "Longhorm Biology", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Not returned" },
+    { id: 462, name: "John Doe", class: "S3B", bookNo: 236, bookName: "Longhorn Chemistry", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Returned" },
+    { id: 563, name: "Kim Huang", class: "S3A", bookNo: 236, bookName: "Longhorm Biology", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Not returned" },
     { id: 574, name: "James Harden", class: "S3B", bookNo: 236, bookName: "English Textbook", borrowingDate: "23-07-2024", returnDate: "23-07-2024", status: "Returned" },
     // Add more entries as needed
   ];

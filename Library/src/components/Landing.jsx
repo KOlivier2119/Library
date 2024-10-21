@@ -35,7 +35,7 @@ const Landing = () => {
         <p className="text-lg md:text-2xl mb-6 text-white animate-fadeIn">
           Manage books, track borrowers, and streamline your library effortlessly.
         </p>
-        <Link to="/dashboard">
+        <Link to="/login">
           <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
             Get Started
           </button>
@@ -72,7 +72,7 @@ const Landing = () => {
           <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
             <FaCogs className="text-5xl text-green-500 mb-4 mx-auto" />
             <h3 className="text-xl font-semibold mb-2 text-center">Customizable Settings</h3>
-            <p className="text-center">Tailor the system settings to suit your library's needs.</p>
+            <p className="text-center">Tailor the system settings to suit your library&apos;s needs.</p>
           </div>
         </div>
       </section>
@@ -83,11 +83,11 @@ const Landing = () => {
         <p className="text-lg mb-6 text-white">
           Experience the full power of our Library Management System with a free trial. No credit card required.
         </p>
-        <Link to="/signup">
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+   
+        <Link to="/login" className="bg-green-500  hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
             Sign Up for Free
-          </button>
         </Link>
+        
       </section>
 
       {/* Footer Section */}

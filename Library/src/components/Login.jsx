@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Login = ({ setLoggedIn }) => {
   return (
     <div className="h-screen flex justify-center items-center bg-[#021428] w-screen">
       <div className="bg-white p-8 rounded-lg shadow-md w-[90%] max-w-md">
@@ -8,7 +8,7 @@ const Login = () => {
         <h1 className="text-3xl font-bold text-center mb-6 text-[#021428]">
           Library Login
         </h1>
-        
+
         {/* Login Form */}
         <form>
           <div className="mb-4">
@@ -44,18 +44,21 @@ const Login = () => {
 
           {/* Submit Button */}
           <div className="flex justify-center">
-            <button
-              type="submit"
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full w-full shadow-lg transition duration-300"
-            >
-              Log In
-            </button>
+            <Link to="/dashboard">
+              <button
+                type="submit"
+                className="bg-green-500 hover:bg-green-700 w-40 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300"
+                onClick={() => setLoggedIn(true)}
+              >
+                Log In
+              </button>
+            </Link>
           </div>
         </form>
 
         {/* Sign Up Link */}
         <div className="mt-6 text-center">
-          <p className="text-gray-700">Don&apos; t have an account? 
+          <p className="text-gray-700">Don&apos; t have an account?
             <Link to="/signup" className="text-green-500 hover:text-green-700 ml-2">Sign Up</Link>
           </p>
         </div>
